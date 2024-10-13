@@ -18,6 +18,16 @@
       role: JobPassenger
       time: 72000 #20 hrs, fun mantle for the most experienced greytiders
 
+# For the Dedicated (for Maid Outfit)
+- type: loadoutEffectGroup
+  id: DedicatedGrey
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobPassenger
+      time: 720000 #200 hrs, because 215hr is much even for me
+
 # Face
 - type: loadout
   id: PassengerFace
@@ -56,6 +66,15 @@
     proto: GreyTider
   equipment:
     jumpsuit: ClothingUniformJumpsuitAncient
+
+# Maid Outfit
+- type: loadout
+  id: JanitorialMaidOutfit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: DedicatedGrey
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanimaid)
 
 # Neck
 - type: loadout
