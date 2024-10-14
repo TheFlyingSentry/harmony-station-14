@@ -18,7 +18,7 @@
       role: JobPassenger
       time: 72000 #20 hrs, fun mantle for the most experienced greytiders
 
-# For the Dedicated (Maid Outfit)
+# For the Dedicated (Maid Outfit) Harmony
 - type: loadoutEffectGroup
   id: DedicatedGrey
   effects:
@@ -67,7 +67,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitAncient
 
-# Maid Outfit
+# Maid Outfit Harmony
 - type: loadout
   id: JanitorialMaidOutfit
   effects:
